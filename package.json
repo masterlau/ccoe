@@ -1,0 +1,20 @@
+{
+  "name": "ccoe",
+  "version": "1.0.0",
+  "description": "CCOE Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.858.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "title-case": "^3.0.3"
+  }
+}

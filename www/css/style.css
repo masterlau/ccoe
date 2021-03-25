@@ -1,0 +1,98 @@
+/*
+ *  * Globals
+ *   */
+
+html,
+body {
+	min-height: 100%;
+    background-color: #00a3ad;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+	font-weight: 300;
+    margin: 0;
+	line-height: 14pt;
+}
+
+.container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+}
+
+.icon-active {
+    color: #00a3ad !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+/* HOMEPAGE */
+body#home #logo {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+body#home #welcome {
+    margin-bottom: 10px;
+}
+
+body#home input {
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+    background-color: #eee;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+body#home input[type="submit"] {
+    box-sizing: border-box;    
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: white;    
+    color: #00a3ad;                
+    border: 2px solid #00a3ad;    
+    cursor: pointer; 
+}
+
+body#home input[type="submit"]:hover {
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	background-color: #00a3ad;
+	color: white;
+	border: 2px solid white;
+	cursor: pointer;
+}
+
+body#home .warning {
+    margin-bottom: 10px;
+}
+
+body#home .loginMsgBox {
+    margin-bottom: 10px;
+	font-weight: 600;
+	color: #ffcc08;
+}
+
+body#home #retry {
+    font-weight: 600;
+}
+
+body#home #retry:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Optus Cloud Community">
+    <meta name="author" content="Peter Liu">
+    <title>Optus Radio</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+	<!-- CSS Style -->
+    <link href="/css/style.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- FAVICONS -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+	<link rel="manifest" href="/img/site.webmanifest">
+
+    <script src="/js/common.js" rel="javascript"></script>
+    <script src="/js/home.js" rel="javascript"></script>
+</head>
+
+<body>
+
+<body id="home">
+	<div class="container">
+		<img class="header" src="/img/logo.png" id="logo"/>
+
+        <section id="login">
+        	<div id="welcome">
+        		Optus Cloud Community<br/>
+        	    Enter your email & click subscribe.<br/>
+        	    Check your email for a link to service.<br/>
+        	</div>
+        	<div class='loginForm'>
+        		<input id="input-name" type="email" placeholder="Name [eg John Citizen]" size="40" /><br/>
+        		<input id="input-email" type="email" placeholder="Email [eg john.citizen@optus.com.au]" size="40" /><br/>
+        	    <input id="input-subscribe" type="submit" value="Subscribe & Check Email"/><br/>
+        	</div>
+        	<div class="warning">Note: For best exeperience,<br/><span class="bold">disconnect from corporate VPN</span></div>
+        	<div class="loginMsgBox"></div>
+		</section>
+
+        <div class="footer">Copyright &copy; 2021 &middot; Optus</div>
+    </div>
+</body>
+
+</html>

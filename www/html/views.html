@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Optus Cloud Community">
+    <meta name="author" content="Peter Liu">
+    <title>Optus Radio</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/16cc52d24c.js" crossorigin="anonymous"></script>
+
+	<!-- CSS Style -->
+    <link href="/css/views.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- FAVICONS -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+	<link rel="manifest" href="/img/site.webmanifest">
+
+    <script src="/js/views.js" rel="javascript"></script>
+</head>
+
+<body>
+
+<body id="views">
+
+    <div class="wrapper">
+        <header class="page-header">
+			<div id="logo"><img class="logo" src="/img/optus-logo-teal.jpg" /></div>
+			<div id="menu"><i class="far fa-bars slideMenu"></i></div>
+			<div id="subMenu">
+				<ul>
+					<li class='menu active' navLink='close'>
+                        <i class="fal fa-times"></i><br/>
+                        <span class="navTitle">Close</span>
+                    </li>
+                	<li class='menu active' navLink='events'>
+                	    <i class="fal fa-calendar-alt"></i><br/>
+                	    <span class="navTitle">Events</span>
+                	</li>
+                	<li class='menu' navLink='chat'>
+                	    <i class="fal fa-comments"></i><br/>
+                	    <span class="navTitle">Chat</span>
+                	</li>	
+                	<li class='menu' navLink='podcasts'>
+               	    	<i class="fal fa-podcast"></i><br/>
+                    	<span class="navTitle">Podcasts</span>
+                	</li>
+                	<li class='menu' navLink='hacker'>
+                    	<i class="fal fa-theater-masks"></i><br/>
+                    	<span class="navTitle">Hacker</span>
+                	</li>
+                	<li class='menu' navLink='learn'>
+                    	<i class="fal fa-graduation-cap"></i><br/>
+                		<span class="navTitle">Learn</span>
+                	</li>
+				</ul>
+			</div>
+        </header>
+        <main class="page-main">
+
+			<section class="views" id="events">
+
+                <!-- EVENT 2 -->
+                <div id="event-2" class="eventItem">
+                    <i class="fas fa-bookmark bookmark"></i>
+                    <i class="fad fa-calendar category"></i>
+                    <a href="https://www.ciscolive.com/2021.html" target="_blank"><i class="fas fa-ticket-alt like"></i></a>
+                    <img src="/img/events/event-2.jpg"/>
+                    <p class="title">Cisco Live - Turn it Up!</p>
+                    <p class="location"><i class="far fa-map-marker-alt"></i> Virtual Online Video Conference</p>
+                    <p class="date"><i class="far fa-clock"></i> 31 March - 1 April 2021 &#9679; 9am-5pm AEST</p>
+					<p class="brief">
+						Get ready to turn up the excitement, the inspiration, the education, and the fun! Over two days, we’ll feature keynotes, technical sessions, innovation talks, World of Solutions, celebrity appearances, and more. Select from a FREE explorer pass or upgrade to an All-Access pass. Your choice!
+					</p>
+                    <hr/>
+                </div>
+
+                <!-- EVENT 3 -->
+                <div id="event-3" class="eventItem">
+                    <i class="fas fa-bookmark bookmark"></i>
+                    <i class="fad fa-calendar category"></i>
+                    <a href="https://www.eventbrite.com/e/optus-cloud-meetup-march-2021-virtual-ms-teams-tickets-144924552237" target="_blank"><i class="fas fa-ticket-alt like"></i></a>
+                    <img src="/img/events/event-3.jpg"/>
+                    <p class="title">Optus Cloud Community Meetup Group</p>
+                    <p class="location"><i class="far fa-map-marker-alt"></i> OCS The Hub &#9679; MS Teams Video Conference</p>
+                    <p class="date"><i class="far fa-clock"></i> Thu 22 April 2021 &#9679; 4pm-5:30pm AEST</p>
+                    <p class="brief">
+                    	The second of our Cloud Community Meetups! News from the community, David Turner from Optus IT is here for Optus Cloud Hero's and the General Manager of Grafana in APAC is our guest to talk all things Monitoring. 
+                    </p>
+                    <hr/>
+                </div>
+
+				<!-- EVENT 1 -->
+				<div id="event-1" class="eventItem">
+					<i class="fas fa-bookmark bookmark"></i>
+					<i class="fad fa-calendar category"></i>
+					<a href="https://register-summit-anz.virtual.awsevents.com/" target="_blank"><i class="fas fa-ticket-alt like"></i></a>
+					<img src="/img/events/event-1.jpg"/>
+					<p class="title">AWS Summit Sydney</p>
+					<p class="location"><i class="far fa-map-marker-alt"></i> Virtual Online Video Conference</p>
+					<p class="date"><i class="far fa-clock"></i> 18-19 May 2021 &#9679; 9am-5pm AEST</p>
+					<hr/>
+				</div>
+
+			</section>
+
+            <section class="views" id="chat">
+                chat
+            </section>
+
+
+			<!-- PODCASTS -->
+			<section class="views" id="podcasts">
+
+				<!-- HTML 5 AUDIO ELEMENT -->
+        		<audio id="audioElement" autoplay controls loop>
+            		<source id="showStream" src="" type="audio/mp3">
+        		</audio>				
+			
+	            <!-- PODCAST 1 -->
+                <div id="podcast-1" class="podcastItem">
+                    <i class="fas fa-bookmark bookmark"></i>
+                    <i class="fas fa-microphone category"></i>
+                    <img src="/img/podcasts/podcast-1.jpg"/>
+					<div class="mediaContainer">
+						<div class="words">
+                    		<p class="title">Cloud Community Podcast Promo</p>
+							<p class="person"><i class="far fa-user-friends"></i> Peter Liu</p>
+                    		<p class="date"><i class="far fa-clock"></i> 01 Mar 2021</p>
+                    		<p class="brief">
+								Tune in and listen to people in the business, partners and customers talk about all things Cloud.
+							</p>
+						</div>
+						<div class="button">
+							<i class="fal fa-play-circle podcastPlay" link="https://optus-podcasts.s3-ap-southeast-2.amazonaws.com/Promo.mp3"></i>
+						</div>
+					</div>
+				</div>
+
+                <!-- PODCAST 2 -->
+                <div id="podcast-2" class="podcastItem">
+                    <i class="fas fa-bookmark bookmark"></i>
+                    <i class="fas fa-clouds category"></i>
+                    <img src="/img/podcasts/podcast-2.jpg"/>
+                    <div class="mediaContainer">
+                        <div class="words">
+                            <p class="title">Project Asimov</p>
+							<p class="person"><i class="far fa-user-friends"></i> Haydn Mearns</p>
+                            <p class="date"><i class="far fa-clock"></i> 23 Mar 2021</p>
+                            <p class="brief">
+                                Haydn is here talking about project Asimov - a Robotic Process Automation project tasked with enabling predictive and pre-emmptive provisioning of cell radio's to ensure quality of service for our customers.<br/>
+								<b>Tags:</b> Micro-Services, Kubernetes, Redhat Openshift, Cloud Native, Machine Learning.
+                            </p>
+                        </div>
+                        <div class="button">
+                            <i class="fal fa-play-circle podcastPlay" link="https://optus-podcasts.s3-ap-southeast-2.amazonaws.com/Promo.mp3"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PODCAST 3 -->
+                <div id="podcast-3" class="podcastItem">
+                    <i class="fas fa-bookmark bookmark"></i>
+                    <i class="fas fa-phone category"></i>
+                    <img src="/img/podcasts/podcast-3.jpg"/>
+                    <div class="mediaContainer">
+                        <div class="words">
+                            <p class="title">Optus Living Networks</p>
+                            <p class="person"><i class="far fa-user-friends"></i> Guillaume Poulet</p>
+                            <p class="date"><i class="far fa-clock"></i> 24 Mar 2021</p>
+                            <p class="brief">
+                                Guy takes us through In-Call Transcription & Translation as part of the Living Network Project. He also talks about his experience of presenting at Redhat Summit in Boston.<br/>
+								<b>Tags:</b> Mobility, Kubernetes, Cloud Native, RedHat Openshift.
+                            </p>
+                        </div>
+                        <div class="button">
+                            <i class="fal fa-play-circle podcastPlay" link="https://optus-podcasts.s3-ap-southeast-2.amazonaws.com/Promo.mp3"></i>
+                        </div>
+                    </div>
+                </div>
+
+			</section>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
